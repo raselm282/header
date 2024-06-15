@@ -1,0 +1,140 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #eee;
+
+}
+/*header part start*/
+header{
+    width: 100%;
+    border: 1px solid #090909;
+    display: flex;
+    background-color: rgb(8, 6, 6);
+    color: white;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    margin-left: 10px;
+    border: 1PX solid #fff;
+    width: 150PX;
+    height: 40PX; 
+    background-color: rgb(68, 68, 67);
+    text-align: center;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20PX;
+    align-items: center;
+    justify-content: center;line-height: 40PX;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.nav ul ul{
+    display: none;
+}
+.nav ul li:hover{
+    background-color: brown;
+    transition: all ease-in .4s;
+}
+.nav ul li:hover>ul{
+    display: block;
+}
+/*header part end*/
+/*form start*/
+.fo1{
+    background-color: chocolate;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid chocolate;
+    margin: 0px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: 700;
+   
+}
+.fo1 input{
+    border-color: brown;
+    background-color: burlywood;
+    border-radius: 3px;
+    font-weight: 600;
+
+}
+.fo1 input:hover{
+    background-color: coral;
+}
+
+
+
+
+/*form  end*/
+/*footer part start*/
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    background-color: black;
+    margin: 0px;color: white;
+    text-align: center;    
+}
+.h1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+div p{
+    width: 600px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 16px;
+    position: relative;
+    top: -20px;font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    font-size: 40px;
+    padding: 15px;
+    top: -20px;
+    position: relative;
+}
+.copy{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    top: -20px;
+    position: relative;
+}
+.icon a{
+    color: white;
+}
+
+
+/*footer part end*/
